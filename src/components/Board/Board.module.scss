@@ -1,0 +1,22 @@
+.board {
+    width: 320px;
+    height: 120px;
+    padding: 5px 15px;
+    text-align: center;
+    background-color: rgba(132, 129, 129, 0.5);
+    font-size: 16px;
+    border: 3px solid rgb(248, 190, 29);
+    outline: none;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #fff;
+    mix-blend-mode: normal;
+}
