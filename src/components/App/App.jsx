@@ -14,10 +14,7 @@ function App() {
 
     useEffect(() => {
         getRate(rateType)
-            .then(response => {
-                console.log(response.data);
-                setRateInfo(response.data);
-            });
+            .then(response => setRateInfo(response.data));
     }, [rateType]);
 
     return (

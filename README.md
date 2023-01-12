@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+Before run this app on your [http://localhost:3000](http://localhost:3000) go to [https://cors-anywhere.herokuapp.com/corsdemo](https://cors-anywhere.herokuapp.com/corsdemo) and click the button "Request temporary access to the demo server".
+After click you have to see message: "You currently have temporary access to the demo server."
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
