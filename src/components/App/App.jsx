@@ -1,5 +1,5 @@
 import React, { useEffect, createContext } from 'react';
-import { getRate } from 'utils/axios_utils';
+import { getRate } from 'common/api';
 import useLocalStorage from 'hooks/useLocalStorage';
 import styles from './App.module.scss';
 

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Context } from 'components/App/App';
-import { currencyOptions } from 'common/selectsOptions';
+import { currencyOptions } from 'utils/selectsOptions';
 import styles from './Header.module.scss';
 
 import Select from 'components/Select';

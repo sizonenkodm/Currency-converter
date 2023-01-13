@@ -1,9 +1,9 @@
 import React, { useEffect, useContext } from 'react';
 import { Context } from 'components/App/App';
 import useLocalStorage from 'hooks/useLocalStorage';
-import { rateCalculation } from 'common/rateCalculation';
-import { setFieldValueView } from 'common/setFieldValueView';
-import { operationOptions, currencyList } from 'common/selectsOptions';
+import { rateCalculation } from 'utils/rateCalculation';
+import { setFieldValueView } from 'utils/setFieldValueView';
+import { operationOptions, currencyList } from 'utils/selectsOptions';
 import styles from './Converter.module.scss';
 
 import Select from 'components/Select';
